@@ -1,0 +1,59 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.container hr{
+    height: 2px;
+    border: none;
+    background: black;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    background: magenta;
+    color: azure;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .index{
+    margin: auto;
+    font-size: 15px;
+}
+
+.container .Correct{
+    background: lightgreen;
+    border-color: aqua;
+}
+.container .wrong{
+    background: brown;
+    border-color: red;
+}
